@@ -1,0 +1,70 @@
+[
+  {
+    "model": "students.teacher",
+    "pk": 1,
+    "fields": {
+      "name": "Иван Петрович",
+      "subject": "Математика"
+    }
+  },
+  {
+    "model": "students.teacher",
+    "pk": 2,
+    "fields": {
+      "name": "Мария Ивановна",
+      "subject": "Русский язык"
+    }
+  },
+  {
+    "model": "students.teacher",
+    "pk": 3,
+    "fields": {
+      "name": "Алексей Сергеевич",
+      "subject": "Физика"
+    }
+  },
+  {
+    "model": "students.teacher",
+    "pk": 4,
+    "fields": {
+      "name": "Елена Владимировна",
+      "subject": "Английский язык"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 1,
+    "fields": {
+      "name": "Анна Смирнова",
+      "age": 15,
+      "teachers": [1, 2]
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 2,
+    "fields": {
+      "name": "Михаил Иванов",
+      "age": 16,
+      "teachers": [1, 3]
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 3,
+    "fields": {
+      "name": "Екатерина Петрова",
+      "age": 14,
+      "teachers": [2, 4]
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 4,
+    "fields": {
+      "name": "Дмитрий Сидоров",
+      "age": 15,
+      "teachers": [3, 4]
+    }
+  }
+]
